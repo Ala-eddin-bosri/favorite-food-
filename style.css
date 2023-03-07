@@ -1,0 +1,90 @@
+body{
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue {
+    background-color: black;
+    color: whitesmoke;
+    
+    align-items: center;
+    border-radius: 40px;
+    width: 25%;
+    font-size: 1.8em
+}
+.title{
+    font-style: italic;
+    font-size: 35px;
+       color: white;
+       background-color: black;
+       cursor: pointer;
+      
+       
+  }
+  
+  .head {
+    color: bisque;
+    background-color: black;
+    font-style: oblique;
+    font-size: 46px;
+    text-align: center;
+	text-shadow: 4px 3px 0px red, white;
+}
+.random{
+    font-size: 46px;
+    color: black;
+    background-color: grey;
+    position:absolute;
+    top:50%;
+    left:30%;
+    margin-top:-200px;  
+    margin-left:-70px;
+    right:40% ;
+    
+    
+
+}
+#buttonnext{
+    background-color: black;
+    color:whitesmoke;
+    margin: 0 auto;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size:30px ;
+    border: 50px; 
+    border-radius:20% ;
+   
+    
+    
+}
+#des{
+   font-size: 38px;
+   right:30% ;
+   left:30%;
+}
+#addbutton{
+    background-color: black;
+    color:whitesmoke;
+    margin: 0 auto;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    font-size:30px ;
+    border: 50px; 
+    border-radius:20% ;
+}
+.list{
+   
+    color: whitesmoke;
+    margin-left: 60%;
+    border-radius: 40px;
+    padding: 25px 50px;
+    width: 100vw;
+    font-size: 2.1em;
+    
+
+}
+#listpic{
+    width: 100px;
+}
