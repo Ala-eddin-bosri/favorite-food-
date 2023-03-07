@@ -1,6 +1,6 @@
 
 var currentpic;
-
+var count=0;
 
 function meal(pic,name){
     this.pic=pic,
@@ -8,16 +8,7 @@ function meal(pic,name){
 }
 
 
-var meal1=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal2=['/randomImage/Chinon Apple Tarts.jpg',"Chinon Apple Tarts"] // hna mazalt ma9aretch bech nhothom kol wahda fi array wala la !!!!
-var meal3=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal4=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal5=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal6=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal8=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal9=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal10=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
-var meal11=['/randomImage/tonkatsu pork.jpg',"Tonkatsu pork"]
+
 
 
 
@@ -42,12 +33,12 @@ var Rmeal = ["Tonkatsu pork", "Chinon Apple Tarts", "Chakchouka","Sushi","Fresh 
     var randomIndex = Math.floor(Math.random() * 13)
 
 
-var currentpic=document.getElementById("randomimage").src //normalment hathy bech ta3tini taswira random hiya taswira eli mawjouda tw 
+var currentpic=document.getElementById("randomimage").src 
 
 
 
 function addtofavorite(){
-
+    
         var x = document.createElement("li");
         var t = document.createTextNode( document.getElementById("des").innerHTML);
       
@@ -55,9 +46,10 @@ function addtofavorite(){
         
         document.getElementById("listname").appendChild(x);
         document.getElementById("listpic").src='/randomImage/' +document.getElementById("des").innerHTML+ '.jpg'
+       
       }
     
-        // hna el 8alta win 
+        
     
 
 
@@ -70,3 +62,19 @@ function addtofavorite(){
     addtofavorite()
     
 });
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,8 +9,8 @@ body{
     
     align-items: center;
     border-radius: 40px;
-    width: 25%;
-    font-size: 1.8em
+    width: 21%;
+    font-size: 0.9em
 }
 .title{
     font-style: italic;
@@ -31,12 +31,12 @@ body{
 	text-shadow: 4px 3px 0px red, white;
 }
 .random{
-    font-size: 46px;
+    font-size: 35px;
     color: black;
-    background-color: grey;
+    background-color: whitesmoke;
     position:absolute;
-    top:50%;
-    left:30%;
+    top:45%;
+    left:35%;
     margin-top:-200px;  
     margin-left:-70px;
     right:40% ;
@@ -49,11 +49,11 @@ body{
     color:whitesmoke;
     margin: 0 auto;
     align-items: center;
-    width: 200px;
+    width:100px;
     height: 40px;
     font-size:30px ;
     border: 50px; 
-    border-radius:20% ;
+    
    
     
     
@@ -68,11 +68,11 @@ body{
     color:whitesmoke;
     margin: 0 auto;
     align-items: center;
-    width: 300px;
+    width: 270px;
     height: 40px;
     font-size:30px ;
     border: 50px; 
-    border-radius:20% ;
+    
 }
 .list{
    
@@ -87,4 +87,23 @@ body{
 }
 #listpic{
     width: 100px;
+}
+
+.pizza{
+    
+}
+
+.r{
+    font-style: initial;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.slm{
+    color: aqua;
+    
+}
+.listof{
+    color: darkgoldenrod;
+    background-color: antiquewhite;
+    font-style: italic;
 }
