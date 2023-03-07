@@ -77,11 +77,14 @@ body{
 .list{
    
     color: whitesmoke;
-    margin-left: 70%;
+    margin-left: 60%;
     border-radius: 40px;
     padding: 25px 50px;
     width: 100vw;
     font-size: 2.1em;
     
 
+}
+#listpic{
+    width: 100px;
 }
