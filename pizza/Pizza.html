@@ -5,23 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
+    <link rel="stylesheet" href="pizza.css">
 </head>
 <body>
-    <style>
-        body {
-          background-image: url('https://img.freepik.com/free-vector/flat-food-background_23-2148042950.jpg?w=740&t=st=1678191040~exp=1678191640~hmac=adf6dfedc9367e1c6c36ec73c6557b061e55c6bfb8a9e32aec6b196247d654b7');
-        }
-
-
-        button {
-        display: inline-block;
-        background-color: #7b38d8;
-        padding: 20px;
-        width: 200px;
-        color: #ffffff;
-        text-align: center;
-      }
-        </style>
+    
 <button type="back" onclick="back()">back</button>
     <div>
      <h1>4 cheese pizza</h1> 
@@ -85,7 +72,22 @@
 function back(){
     return window.location.href = "http://127.0.0.1:5500/index.html"
 }
+
+function addComment() {
+    var comment = document.getElementById("comment").value;   // Get the user's comment
+    var newComment = document.createElement("li");  // Create a new ligne (li) element to hold the comment
+    var commentText = document.createTextNode(comment);  // Add the comment to li
+    newComment.appendChild(commentText);
+  var position =document.querySelector('li') //position
+    position.insertAdjacentElement("afterend", newComment); // Insert the li element after the empty li
+  }
     </script>
     
+    <form>
+        <label >Add a comment:</label>
+        <input type="text" id="comment" name="comment">
+        <button type="button" onclick="addComment()">Submit</button>
+        <li>The comments:</li>
+      </form>
 </body>
 </html>

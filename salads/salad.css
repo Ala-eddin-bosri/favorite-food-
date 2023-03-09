@@ -1,0 +1,46 @@
+body {
+    background-size: cover;
+      background-image: url('https://previews.123rf.com/images/seralexvi/seralexvi1511/seralexvi151100025/49038691-salade-fra%C3%AEche-relevant-de-l%C3%A9gumes-m%C3%A9lang%C3%A9s-dans-un-bol-sur-fond-blanc.jpg');
+  }
+
+  button {
+      display: inline-block;
+      background-color: #7b38d8;
+      padding: 20px;
+      width: 200px;
+      color: #ffffff;
+      text-align: center;
+    }
+    input{
+        width: 400px;
+        height: 40px;
+        font-size: 22px;
+        
+      }
+      label{
+       color: #7b38d8;
+       font-size: 34px;
+      }
+        body {
+          background-image: url('https://img.freepik.com/free-photo/assortment-italian-pasta_23-2148357175.jpg?w=740&t=st=1678194076~exp=1678194676~hmac=86307bc9dcb6685208272b94f447186437737078159192a048f12d87a7609cc9');
+        background-size: cover;
+        }
+        
+        button {
+        display: inline-block;
+        background-color: #7b38d8;
+        padding: 20px;
+        width: 200px;
+        color: #ffffff;
+        text-align: center;
+      }
+      h1{
+        color: red;
+        background-color: black;
+      }
+    p{
+    color: black;
+    }
+    form{
+    text-align: center;
+    }

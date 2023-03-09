@@ -1,0 +1,46 @@
+input{
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    
+  }
+  label{
+   color: #7b38d8;
+   font-size: 34px;
+  }
+    body {
+      background-image: url('https://img.freepik.com/free-photo/assortment-italian-pasta_23-2148357175.jpg?w=740&t=st=1678194076~exp=1678194676~hmac=86307bc9dcb6685208272b94f447186437737078159192a048f12d87a7609cc9');
+    background-size: cover;
+    }
+    
+    button {
+    display: inline-block;
+    background-color: #7b38d8;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+  }
+  h1{
+    color: red;
+    background-color: black;
+  }
+p{
+color: blue;
+}
+form{
+text-align: center;
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/flat-food-background_23-2148042950.jpg?w=740&t=st=1678191040~exp=1678191640~hmac=adf6dfedc9367e1c6c36ec73c6557b061e55c6bfb8a9e32aec6b196247d654b7');
+  }
+
+
+  button {
+  display: inline-block;
+  background-color: #7b38d8;
+  padding: 20px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+}
