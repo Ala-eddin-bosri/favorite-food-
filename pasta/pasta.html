@@ -5,30 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-          background-image: url('https://img.freepik.com/free-photo/assortment-italian-pasta_23-2148357175.jpg?w=740&t=st=1678194076~exp=1678194676~hmac=86307bc9dcb6685208272b94f447186437737078159192a048f12d87a7609cc9');
-        background-size: cover;
-        }
-        
-        button {
-        display: inline-block;
-        background-color: #7b38d8;
-        padding: 20px;
-        width: 200px;
-        color: #ffffff;
-        text-align: center;
-      }
 
-        </style>
+    <link rel="stylesheet" href="pasta.css">
 </head>
 <body>
 
         <button type="back" onclick="back()">back</button>
         <div>
          <h1>Zucchini cream pasta</h1>
-         <img src="pic/ZucchiniPasta05.webp" alt=""width="350" height="250">
-         <p>
+         <img src="pic/ZucchiniPasta05.webp" alt=""width="350" height="250"> 
+         <img src="image.jpg" alt="My Image" id="my-image">
+
+
+         <h3>
         Ingredients
            <br>Pasta
             400g
@@ -56,19 +45,23 @@
 In a pan, heat the zucchini cream, and add the drained pasta. Mix and leave for 1 to 2 minutes for the flavors to absorb.
 <br>To finish
 Serve, and add the diced raw zucchini on top, for a cooked/raw and hot/cold mixture
-           </p>
+         </h3>
         </div>
       <div>
+
         <h1>Mexican pasta</h1>
+
+
         <img src="pic/Mexican pasta.jpg" alt=""width="350" height="250">
-<p>Ingredients for 2 persons
+<h3>Ingredients for 2 persons
     <br>200 g pasta
     <br>1 chorizo
     <br>2 tomatoes
    <br> 1 green bell pepper
     <br>40 cl of water
     <br>1 tablespoon olive oil
-    <br>salt, pepper</p>
+    <br>salt, pepper
+  </h3>
    <br> PREPARATION
 <br>1/Wash the vegetables, cut the tomatoes into pieces, seed the bell pepper and cut into strips. Cut the chorizo into fairly thin slices.
 <br>2/In a large saucepan, pour in the water and oil and add all the other ingredients.
@@ -79,7 +72,7 @@ At the end of cooking the pasta should be al dente and the cooking water almost 
       <div>
         <h1>linguine pasta with cherry tomatoes and basil</h1>
         <img src="pic/linguine pasta.jpg" alt=""width="350" height="250">
-        <p>Ingredients for 2 people
+        <h4>Ingredients for 2 people
             <br>150 to 200g linguine pasta
             <br>a dozen cherry tomatoes
             <br> onion not too big
@@ -97,8 +90,15 @@ At the end of cooking the pasta should be al dente and the cooking water almost 
 Leave to rest for 5 minutes and serve immediately with a little grated parmesan.
 <br>To finish
 My saucepan was not large enough, so I had to break the pasta in two so that they were in contact with the water from the start of cooking.
-        </p>
+        </h4>
       </div> 
+      
+<form>
+  <label >Add a comment:</label>
+  <input type="text" id="comment" name="comment">
+  <button type="button" onclick="addComment()">Submit</button>
+  <li>The comments:</li>
+</form>
 
     <script src="pasta.js"> </script>
 </body>

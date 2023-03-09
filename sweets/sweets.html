@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sweets</title>
+    <link rel="stylesheet" href="sweet.css">
     <style>
         body {
           background-image: url('https://thumbs.dreamstime.com/z/chocolate-easter-eggs-flat-lay-easter-chocolate-easter-eggs-easter-food-flat-lay-easter-chocolate-easter-eggs-easter-food-106896758.jpg');
@@ -89,7 +90,14 @@ Paysan Breton's tip: If you can't find fresh blueberries, you can use frozen one
 Decorate with crushed pistachios.
 
             </p>
+          
         </div>
+        <form>
+            <label >Add a comment:</label>
+            <input type="text" id="comment" name="comment">
+            <button type="button" onclick="addComment()">Submit</button>
+            <li>The comments:</li>
+          </form>
         <script src="sweets.js"></script>
 </body>
 </html>

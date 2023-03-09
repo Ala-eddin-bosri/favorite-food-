@@ -1,11 +1,8 @@
 
 var currentpic;
-var count=0;
 
-function meal(pic,name){
-    this.pic=pic,
-    this.name=name
-}
+var count=0
+
 
 
 
@@ -38,7 +35,7 @@ var currentpic=document.getElementById("randomimage").src
 
 
 function addtofavorite(){
-    
+   count++
         var x = document.createElement("li");
         var t = document.createTextNode( document.getElementById("des").innerHTML);
       
@@ -46,16 +43,10 @@ function addtofavorite(){
         
         document.getElementById("listname").appendChild(x);
         document.getElementById("listpic").src='/randomImage/' +document.getElementById("des").innerHTML+ '.jpg'
-       
+        document.getElementById('number').textContent=count
       }
-    
+      
         
-    
-
-
-
-
-
 
 
         document.getElementById("addbutton").addEventListener("click", function() {      
@@ -63,11 +54,24 @@ function addtofavorite(){
     
 });
 
+function countLi() {
+    
+    var lis = document.getElementsByTagName("li");
+    var count = lis.length-2;
+
+  document.getElementById('number').textContent=count
+    console.log("There are " + count + " <li> elements in the document.");
+    if (count===6){
+        alert("max 6 favorite")
+    }
+  }
+  
 
 
     
 
 
+    
 
 
 
